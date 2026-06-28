@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    padding: 16px;
+    margin: 0;
+    justify-items: center;
+    justify-content: center;
+}
+
+#cnt{
+    max-width: 450px;
+    width: 100%;
+}
+
+#div{
+}
+
+#top-bar{
+    width: 100%;
+    display: flex;
+    gap: 8px;
+}
+
+#imp{
+    flex: 1;
+    background: green!important;
+}
+
+#del{
+    background: red!important;
+}
+
+#top-bar div{
+    background: #42445A;
+    padding: 16px;
+    border-radius: 6px;
+    color: white;
+}
+
+#items{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+#items div{
+    background: #636572;
+    color: white;
+    padding: 16px;
+    border-radius: 6px;
+}
